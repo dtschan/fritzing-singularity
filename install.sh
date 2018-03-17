@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
 yum -y update
-yum -y install fritzing
+yum -y install fritzing mesa-dri-drivers
 
 yum clean all
 
